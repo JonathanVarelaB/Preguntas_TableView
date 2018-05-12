@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		75490C7620A7883300BFC4F7 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75490C7520A7883300BFC4F7 /* Question.swift */; };
+		75490C7820A7885100BFC4F7 /* QuestionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75490C7720A7885100BFC4F7 /* QuestionList.swift */; };
+		75490C9D20A7A45800BFC4F7 /* RespuestasControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75490C9C20A7A45800BFC4F7 /* RespuestasControllerViewController.swift */; };
 		75FCDB37209E5A060034F90A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FCDB36209E5A060034F90A /* AppDelegate.swift */; };
 		75FCDB39209E5A060034F90A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FCDB38209E5A060034F90A /* ViewController.swift */; };
 		75FCDB3C209E5A060034F90A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75FCDB3A209E5A060034F90A /* Main.storyboard */; };
@@ -15,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		75490C7520A7883300BFC4F7 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		75490C7720A7885100BFC4F7 /* QuestionList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionList.swift; sourceTree = "<group>"; };
+		75490C9C20A7A45800BFC4F7 /* RespuestasControllerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RespuestasControllerViewController.swift; sourceTree = "<group>"; };
 		75FCDB33209E5A060034F90A /* Preguntas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Preguntas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75FCDB36209E5A060034F90A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		75FCDB38209E5A060034F90A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +41,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		75490C7220A7866F00BFC4F7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				75FCDB3A209E5A060034F90A /* Main.storyboard */,
+				75FCDB3D209E5A080034F90A /* Assets.xcassets */,
+				75FCDB3F209E5A080034F90A /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		75490C7320A7867A00BFC4F7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				75FCDB36209E5A060034F90A /* AppDelegate.swift */,
+				75FCDB38209E5A060034F90A /* ViewController.swift */,
+				75490C9C20A7A45800BFC4F7 /* RespuestasControllerViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		75490C7420A7868000BFC4F7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				75490C7520A7883300BFC4F7 /* Question.swift */,
+				75490C7720A7885100BFC4F7 /* QuestionList.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		75FCDB2A209E5A060034F90A = {
 			isa = PBXGroup;
 			children = (
@@ -54,11 +89,9 @@
 		75FCDB35209E5A060034F90A /* Preguntas */ = {
 			isa = PBXGroup;
 			children = (
-				75FCDB36209E5A060034F90A /* AppDelegate.swift */,
-				75FCDB38209E5A060034F90A /* ViewController.swift */,
-				75FCDB3A209E5A060034F90A /* Main.storyboard */,
-				75FCDB3D209E5A080034F90A /* Assets.xcassets */,
-				75FCDB3F209E5A080034F90A /* LaunchScreen.storyboard */,
+				75490C7420A7868000BFC4F7 /* Model */,
+				75490C7320A7867A00BFC4F7 /* Controller */,
+				75490C7220A7866F00BFC4F7 /* View */,
 				75FCDB42209E5A080034F90A /* Info.plist */,
 			);
 			path = Preguntas;
@@ -135,6 +168,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75490C7620A7883300BFC4F7 /* Question.swift in Sources */,
+				75490C7820A7885100BFC4F7 /* QuestionList.swift in Sources */,
+				75490C9D20A7A45800BFC4F7 /* RespuestasControllerViewController.swift in Sources */,
 				75FCDB39209E5A060034F90A /* ViewController.swift in Sources */,
 				75FCDB37209E5A060034F90A /* AppDelegate.swift in Sources */,
 			);
